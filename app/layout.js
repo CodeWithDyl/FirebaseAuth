@@ -1,15 +1,15 @@
-"use client";
-import Navbar from "./components/Navbar";
-import "./globals.css";
-import { Inter } from "next/font/google";
-import { AuthContextProvider } from "./context/AuthContext";
+'use client';
+import Navbar from './components/Navbar';
+import '../styles/globals.css';
+import { Inter } from 'next/font/google';
+import { AuthContextProvider } from './context/AuthContext';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: "Firebase Next.js Authentication",
+  title: 'Firebase Next.js Authentication',
   description:
-    "Following Next.js tutorial on Firebase Authentication from Code Commerce.",
+    'Following Next.js tutorial on Firebase Authentication from Code Commerce.',
 };
 
 export default function RootLayout({ children }) {
