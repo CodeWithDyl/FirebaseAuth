@@ -37,7 +37,7 @@ const Navbar = () => {
      <div >
         <ul className='flex'>
             <li class='p-2 cursor-pointer'>
-                <Link href='#Home'>Home</Link>
+                <Link href='/'>Home</Link>
             </li>
             <li class='p-2 cursor-pointer'>
                 <Link href='/about'>About</Link>
